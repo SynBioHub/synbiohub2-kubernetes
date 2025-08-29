@@ -85,7 +85,7 @@ spec:
         app: synbiohub
     spec:
       containers:
-      - image: synbiohub/synbiohub:ada-script
+      - image: synbiohub/synbiohub:snapshot-standalone
         name: synbiohub
         ports:
         - containerPort: 7777
